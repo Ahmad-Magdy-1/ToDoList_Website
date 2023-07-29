@@ -11,6 +11,7 @@ body {
 }
 
 h1 {
+    color: white;
     width: fit-content;
     text-align: center;
     padding: 5px;
