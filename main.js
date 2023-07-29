@@ -111,7 +111,7 @@ function filter(){
 // mode
 function modeLight(){
     container.className = '';
-    document.getElementById('h1').style.color = 'green';
+    document.getElementById('h1').style.color = '#219b8e';
     document.body.style.background = 'white';
     input[0].style.background = 'white';
     input[1].style.background = 'white';
@@ -123,7 +123,7 @@ function modeLight(){
 }
 function modeDark(){
     container.className = 'dark';
-    document.getElementsByTagName('h1')[0].style.color = 'red';
+    document.getElementsByTagName('h1')[0].style.color = 'white';
     document.body.style.background = 'black';
     input[0].style.background = 'black';
     input[1].style.background = 'black';
