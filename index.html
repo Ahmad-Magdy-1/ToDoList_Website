@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cssFile/Css.css">
+    <link rel="stylesheet" href="cssFile/all.min.css">
+    <title>ToDoList</title>
+</head>
+<body>
+
+    <div id="container">
+        <div id="createTask">
+            <h2>Tasks List</h2>
+            <input type="text" id="task" placeholder="New Task">
+            <button id="addTask">ADD TASK</button>
+        </div>
+        <div id="tasksList">
+            <h2>Tasks</h2>
+            <input type="text" id="search" onkeyup="filter()" placeholder="Fliter Tasks">
+            <div id="tasksBox"></div>
+            <button onclick="delAll()" id="clearAll">CLEAR TASKS</button>
+        </div>
+        <button id="modebtn">
+            <div id="circle"></div>
+        </button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
