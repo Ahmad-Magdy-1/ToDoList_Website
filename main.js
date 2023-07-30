@@ -140,6 +140,12 @@ function locStorage(){
     localStorage.MODE = JSON.stringify(currentMode);
 }
 
+task.onkeyup = function(e){
+    if (e.key == 'Enter'){
+        addTask.click();
+    }
+}
+
 addTask.onclick = function(){
     addT();
     showT();
