@@ -80,7 +80,7 @@ function delT(index){
 function doneT(index){
     t += `
             <div class="box">
-                <div onclick='makeDone(${index})'><span>${tasks[index].text}</span></div>
+                <div onclick='makeDone(${index})'><span>&nbsp${tasks[index].text}&nbsp</span></div>
                 <i onclick='delT(${index})' class="fa-solid fa-trash"></i>
             </div>
             `;
